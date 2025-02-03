@@ -1,0 +1,363 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .list ul li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .list ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .list ul li:hover {
+    cursor: pointer;
+  }
+  .logo {
+    display: flex;
+    width: 50%;
+    align-items: center;
+  }
+  .logo h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  #section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/042/960/499/non_2x/ai-generated-smart-house-home-automation-device-with-app-icons-man-uses-his-smartphone-with-smarthome-security-app-to-unlock-the-door-of-his-house-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+  }
+  #section h1 {
+    font-size: 58px;
+    font-weight: 600;
+    color: white;
+    margin: auto;
+  }
+  #heading {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(60px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  #section2 h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    padding: 20px 0px;
+  }
+  #section2 {
+    padding: 50px 0px;
+  }
+  #section2 .inform {
+    padding: 20px 0px;
+  }
+  #section2 #para {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+  }
+  #section2 #parts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 60px 0px;
+  }
+  #section2 #parts .parts1 img {
+    border-radius: 20px;
+    /* box-shadow: 4px 4px 4px gray; */
+  }
+  #section3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(59, 56, 56);
+    color: white;
+    padding: 45px 0px;
+  }
+  #section3 .part1 h1 {
+    padding: 20px 0px;
+    font-size: 40px;
+  }
+  #section3 .part1 .items h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 2;
+  }
+  .part1 .items h4 {
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  #section3 .part1 .items h4 i {
+    color: brown;
+    font-weight: 900;
+  }
+  .btn {
+    padding: 12px 0px;
+  }
+  .btn button {
+    padding: 20px 55px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: rgb(59, 56, 56);
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+  }
+  .btn button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .part2 img {
+    border-radius: 50px;
+  }
+  #section-main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  #section4 {
+    padding: 50px 0px;
+  }
+  .main1 img {
+    border-radius: 50px;
+  }
+  .main2 {
+    width: 40%;
+    height: 550px;
+    border: 2px solid azure;
+    border-radius: 50px;
+    background-color: rgb(243, 250, 250);
+  }
+  .main1 {
+    width: 40%;
+  }
+  .main2 h1 {
+    font-size: 38px;
+    font-weight: 600;
+    padding: 15px 20px;
+  }
+  .mainp1 h4 i {
+    color: brown;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .mainp1 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    /* justify-content: center; */
+    line-height: 2;
+  }
+  .main-btn {
+    padding: 0px 25px;
+  }
+  .main-btn button {
+    padding: 20px 55px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: skyblue;
+    border: 2px solid skyblue;
+    font-weight: 600;
+  }
+  .main-btn button:hover {
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+  }
+  #section5 {
+    padding: 60px 0px;
+  }
+  .only-one h1 {
+    font-size: 40px;
+    padding: 20px 0px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .only-para {
+    padding: 10px 0px;
+  }
+  .only-para p {
+    font-size: 18px;
+    font-weight: 400;
+    color: grey;
+    text-align: center;
+  }
+  .only-btn {
+    text-align: center;
+    padding: 25px 0px;
+  }
+  .only-btn button {
+    padding: 20px 55px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: skyblue;
+    border: 2px solid skyblue;
+    font-weight: 600;
+  }
+  .only-btn button:hover {
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+  }
+  #section6 {
+    background-color: rgb(239, 251, 255);
+    padding: 80px 0px;
+  }
+  #section6 h1 {
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .know {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .know .know1 {
+    border: 2px solid white;
+    width: 20%;
+    border-radius: 50px;
+    text-align: center;
+    height: 200px;
+    background-color: white;
+  }
+  .know .know1:hover {
+    cursor: pointer;
+    background-color: rgb(252, 252, 242);
+  }
+  .know1 h2 {
+    font-size: 68px;
+    font-weight: 700;
+    color: skyblue;
+    padding: 20px 0px;
+  }
+  .know1 h5 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #section7 {
+    padding: 50px 0px;
+  }
+  .msg-main {
+    display: flex;
+    justify-content: space-around;
+  }
+  .msg-form h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0px;
+  }
+  .msg-form p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 0px;
+  }
+  .msg-form {
+    padding: 10px 30px;
+    width: 40%;
+  }
+  .form form input {
+    /* padding: 0px 15px; */
+    text-align: center;
+  }
+  .form {
+    padding: 45px 20px;
+    border-radius: 50px;
+    background-color: rgb(250, 246, 246);
+  }
+  .msg-form button {
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: rgb(209, 103, 124);
+    color: white;
+    border: none;
+  }
+  .msg-form button:hover {
+    background-color: chocolate;
+    cursor: pointer;
+  }
+  .form p {
+    font-size: 18px;
+  }
+  .form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 18px;
+  }
+  #masagae {
+    height: 120px;
+  }
+  .msg-img img {
+    border-radius: 40px;
+  }
+  footer {
+    padding: 60px 0px;
+    background-color: black;
+    color: white;
+  }
+  footer h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0px;
+  }
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 32px;
+    padding: 20px 30px;
+  }
+  .contact-icons i:hover {
+    cursor: pointer;
+    color: skyblue;
+    transition: 1s ease-in-out;
+  }
+  
+  @media (max-width: 460px) {
+  }
+  
